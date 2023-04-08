@@ -15,8 +15,8 @@ body{
 }
 .Result{
     width: 250px;
+    background-color:hsla(256, 72%, 46%, 1);
     height: 350px;
-    background-color:hsl(241, 81%, 54%) ;
     text-align: center;
     border-radius: 20px;
     position: relative;
@@ -24,9 +24,9 @@ body{
     
 }
 .circle{
-    background-color:hsla(256, 72%, 46%, 1) ;
-    width: 150px;
-    height: 150px;
+    background-color:hsl(234, 85%, 45%);
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     text-align: center;
     margin-top: -35px;
@@ -46,6 +46,13 @@ h1{
     text-align: center;
     padding-top: 40px;
 }
+.h6{
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 120px;
+}
+.number-in-circle{
+    margin-top: -30px;
+}
 .summary{
     border-radius: 20px;
     width:270px ;
@@ -53,6 +60,58 @@ h1{
     background-color:hsl(0, 0%, 100%);
     
 }
-h5{
+.rest{
     color: hsl(241, 100%, 89%);
+}
+.great-text{
+    font-size: 13px;
+    width:190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 30px;
+    color: hsl(241, 100%, 89%);
+    
+}
+h3{
+    color: aliceblue;
+}
+.summary-box{
+    margin-left: 60px;
+    
+}
+.summary-box ,h5{
+    color: rgb(19, 19, 97);
+}
+.Reaction , .Memory , .Verbal , .Visual{
+    background-color:hsl(240, 29%, 97%) ;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width:180px;
+    height: 33px;
+    border-radius: 5px;
+
+    
+}
+.logo{
+    margin-left: -10px;
+    height: 15px;
+}
+.summary-text{
+    margin-left: -9px;
+}
+.Memory , .Verbal , .Visual{
+    margin-top: 10px;
+}
+button{
+    margin-top: 40px;
+    width: 180px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(10, 10, 92);
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
 }
