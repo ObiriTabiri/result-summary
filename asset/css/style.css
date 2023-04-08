@@ -114,4 +114,29 @@ button{
     border: none;
     cursor: pointer;
     color: aliceblue;
+    
+}
+
+@media  (max-width:425px) {
+    .desktop{
+        flex-direction: column;
+        
+    }
+    .summary{
+    
+        justify-content: center;
+        align-items: center;
+        left: 50px;
+        bottom: 40px;
+        width: 250px;
+
+    }
+    .Result{
+        position: relative;
+        top: 25px;
+        left: -1px;
+    }
+    
+    
+
 }
